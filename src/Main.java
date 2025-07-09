@@ -12,6 +12,10 @@ public class Main {
         System.out.print("Preço: ");
         double preco = input.nextDouble();
 
+        if(preco < 0) System.out.println("Digite um valor válido (acima de R$ 0,00)");
+        System.out.print("Preço: ");
+        preco = input.nextDouble();
+
         System.out.print("Código: ");
         int codigo = input.nextInt();
 
@@ -28,7 +32,6 @@ public class Main {
 
         System.out.println("Produto cadastrado!");
         produto1.exibirInfo();
-
 
         input.close();
     }

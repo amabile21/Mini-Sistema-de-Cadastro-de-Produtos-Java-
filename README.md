@@ -1,19 +1,53 @@
-# 🛒 Mini Sistema de Cadastro de Produtos (Java)
+🛍️ Mini Sistema de Cadastro de Produtos (Java)
 
-O sistema permite que o usuário cadastre um produto, visualize as informações e opte por cadastrar novos produtos.
+Este projeto é um sistema simples em Java que permite ao usuário cadastrar produtos, visualizar os produtos cadastrados e adicionar novos produtos.
 
-## 🧠 Conceitos Aplicados
+✅ Funcionalidades
 
-- **Encapsulamento** com `private` e uso de `get`/`set`
-- **Construtores** para inicializar objetos
-- **Laço de repetição (`while`)**
-- **Uso do Scanner** para entrada de dados via terminal
+Cadastro de produto com nome, preço e código
 
----
+Visualização dos produtos cadastrados
 
-## 📦 Estrutura do Projeto
+Laço de repetição (while) para permitir múltiplas operações
 
-- `Produto.java`: classe que representa um produto, com atributos `nome`, `preço` e `código`. Inclui métodos para cadastrar e exibir informações.
-- `Main.java`: classe principal que executa o programa e interage com o usuário.
+Encapsulamento com get e set
 
----
+Inicialização com construtores
+
+🚀 Como Rodar o Projeto
+Pré-requisitos:
+
+Java JDK 8 ou superior instalado
+
+IDE recomendada: IntelliJ IDEA ou VS Code
+
+Como executar:
+
+```bash
+Clone o repositório:
+git clone https://github.com/amabile21/Mini-Sistema-de-Cadastro-de-Produtos-Java-.git
+
+Entre na pasta onde está o arquivo src:
+cd Cadastro-de-produtos/src
+
+Compile os arquivos Java:
+javac Produto.java Main.java
+
+Execute o programa:
+java Main
+```
+
+Ou via IDE:
+
+Importe o projeto na sua IDE preferida.
+
+Execute a classe Main.java.
+
+💡 Possíveis Melhorias
+
+Interface gráfica com JavaFX ou Swing
+
+Exclusão e edição de produtos
+
+Ordenação dos produtos por preço ou nome
+
