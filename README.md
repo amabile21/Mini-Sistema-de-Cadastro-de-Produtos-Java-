@@ -27,7 +27,7 @@ Este projeto é um sistema simples em Java que permite ao usuário cadastrar pro
 # Clone o repositório:
 git clone https://github.com/amabile21/Mini-Sistema-de-Cadastro-de-Produtos-Java-.git
 
-# Entre na pasta onde está o arquivo src:
+# Entre na pasta src:
 cd Mini-Sistema-de-Cadastro-de-Produtos-Java-/src
 
 # Compile os arquivos Java:
